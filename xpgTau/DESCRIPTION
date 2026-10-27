@@ -1,0 +1,11 @@
+Package: xpgTau
+Type: Package
+Title: Generate samples
+Version: 1.0
+Date: 2025-10-07
+Author: Lanya Yang
+Maintainer: Lanya Yang <yangl35@lancaster.ac.uk>
+Description: Exchangeable Particle Gibbs for Markov jump processes
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.12), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
