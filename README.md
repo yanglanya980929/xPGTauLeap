@@ -10,9 +10,9 @@ for Bayesian inference in time-discretised Markov jump processes.
 
 ## Repository contents
 
-- `xpgTau/`: Rcpp package implementing the algorithms.
+- `xpgTau`: Rcpp package implementing the algorithms.
 - `execution`: R scripts for running the experiments.
-- `[figures-folder]/`: Code for producing the figures.
+- `generate_figures.R`: Code for producing the figures.
 
 ## Requirements
 
