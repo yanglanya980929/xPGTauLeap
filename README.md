@@ -21,6 +21,7 @@ for Bayesian inference in time-discretised Markov jump processes.
 
 The code requires R and the following packages:
 
+- xpgTau
 - Rcpp
 - RcppArmadillo
 - parallel
@@ -31,3 +32,10 @@ Install the required R packages:
 
 ```r
 install.packages(c("Rcpp", "RcppArmadillo", "parallel"))
+
+Rcpp::compileAttributes("~/xpgTau")
+
+devtools::load_all("~/xpgTau")
+
+
+
